@@ -1,3 +1,5 @@
+// premitive dataType = Number,String,Boolean,null,undefine,Symbol,Bigint
+// Non Premitive dataType = Array, Object,Function
 var x = 10;
 console.log("This is a new datatype ", x);
 var x = 55;
@@ -28,3 +30,16 @@ console.log("Type of jitu is ",typeof(Jitu));
         symbol=>uniqueness
 */
 /* */
+
+let a = [1,2,3,4]
+// console.log(typeof a)
+ // lets create a object 
+ let num = 90
+ let myobj = {
+        name : "Jitu",
+        age : 21,
+        collage:"Techno",
+        // mother:"gita",
+        number:num
+ }
+ console.log(myobj)
