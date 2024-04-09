@@ -12,8 +12,11 @@ let a2 = [4,5,6];
 let a3 = [7,8,9];
 //a1.concat(a2);concat function return a new array it's does not change the existing array 
 let newa = a1.concat(a3,a2);
-console.log(newa);
-console.log("After sorting ",newa.sort());
+
+const sparr = [...a1,...a2,...a3]
+// console.log(sparr);
+// console.log(newa);
+// console.log("After sorting ",newa.sort());
 // let newarr = [];
 // for(let i=0;i<a1.length;i++)
 // {
@@ -26,7 +29,7 @@ let newArr = a1.map((e)=>{
     return e**2;
 })
 
-console.log(newArr)
+// console.log(newArr)
 let a9 = [1,2,3,4,6];
 const greaterThanthree = (element)=>{
    if(element>3)
@@ -35,9 +38,16 @@ const greaterThanthree = (element)=>{
    }
    return false;
 }
-console.log(a9.filter(greaterThanthree));
+// console.log(a9.filter(greaterThanthree));
 let a5 = [1,2,3,4,5];
 let sum = (a,b)=>{
     return a+b;
 }
-console.log(a5.reduce(sum));
+// console.log(a5.reduce(sum));
+// console.log(Array.from({name: "hitesh"})) // interesting
+// console.log(Array.from("Hitesh"))
+let s1 = 100
+let s2 = 200
+let s3 = 300
+
+// console.log(Array.of(s1,s2,s3))
