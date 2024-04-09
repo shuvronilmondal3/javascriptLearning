@@ -10,4 +10,5 @@ let random = Math.random()*100
 const max=186
 const min = 0
 let value = (Math.random() * (max-min))+min// most most importent 
-console.log(Math.ceil(value))
+// console.log(Math.ceil(value))
+console.log(Math.ceil(value));
